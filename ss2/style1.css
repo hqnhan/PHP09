@@ -1,0 +1,15 @@
+p{
+	width: 100px;
+	border: 10px solid red;
+	padding-top: 40px;
+	padding-left: 30px;
+	margin: 100px;
+	margin-left: 100px;
+
+}
+div{
+	border: 5px solid pink;
+}
+h1{
+	border: 5px dotted red;
+}

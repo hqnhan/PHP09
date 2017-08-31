@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vidu</title>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+	<form name="email form" action="" method="post">
+		<p>Please enter an email address</p>
+		<p>Email:<input type="text" name="email" placeholder="please input your email"></p>
+		<p>Password:<input type="password" name="password" maxlength="10"></p>
+		<p>ID:<input type="hidden" name="hidden"></p>
+		Gioi Tinh:
+		<input type="radio" name="Gioi Tinh" value="nam"> Nam
+		<input type="radio" name="Gioi Tinh" value="Nu"> Nu
+		<input type="radio" name="Gioi Tinh" value=" Khac"> Khac<br>
+		Topping:<br>
+		<p><input type="checkbox" name="Topping1" value="peperoni">Peperoni</p>
+		<input type="checkbox" name="Topping2" value="aaaaa">aaaaa<br>
+		<input type="checkbox" name="Topping3" value="bbbb">bbbb<br>
+		<p><input type="submit" name="submit" value="subscribe"><input type="reset" name="reset" value="Reset"></p>
+		<p><input type="image" src="dathang.png" alt="Dat mua" name="image" width="100" height="30" value="Dat mua"></p>
+		<p>Comments:</p>
+		<textarea rows="5" cols="50" placeholder="If you have any Comments, please enter them here"></textarea><br>
+		Name:<input type="text" name="name" required autofocus><br>
+		Zip:<input type="text" name="Zip" required pattern="\d{5} ([\-]\d{4})?" title="Must be 9999 or 99999-99999">	
+	</form>
+	<select name="style_and_size" size="4" witdh="10px">
+		<option value="NY10">10</option>
+		<option value="NY12">12</option>
+		<option value="NY16">16</option>
+		<option value="1"> 1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>		
+	</select>
+</body>
+</html>

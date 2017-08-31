@@ -1,0 +1,150 @@
+header{
+	background:#ffcc00;
+	height: 100px;
+}
+header img{
+	float: left;
+	width: 300px;
+	margin-left: 60px;
+	margin-bottom: 20px;
+	margin-right: 20px;	
+}
+header h1,p{
+	margin-bottom:2px;
+	margin-top: 2px;
+	font-weight: bold;
+}
+#headlink{
+	height: 45px;
+	background: #b30000;
+    clear: both;
+    border-top: 2px solid#b30000;
+}
+#headlink li{
+	float: left;
+	list-style-type: none;
+	width: 120px;
+	height: 40px;
+	font-size: 11px;
+}
+#headlink a{
+	color: #ffcc00;
+	text-decoration: none;
+	padding: 17px 12px;
+}
+#headlink a:hover{
+	text-decoration: none;
+	background: yellow;
+	color: black;
+}
+#headlink ul li.khh #khh1,li.ghv #ghv1{
+	display: none;
+    z-index: 9999;
+    position: absolute;
+    height: 200px;
+    width: 201px;
+    top: 155px
+}
+#headlink ul li.khh:hover #khh1,li.ghv:hover #ghv1{
+	display: block;
+	margin-top: 20px;
+}
+
+#headlink ul li.khh #khh1 li,li.ghv #ghv1 li{
+	background: black;
+	color: yellow;
+}
+#aptech{
+	margin-left: 100px ;
+}
+#ttsk{
+	height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #CDCDCD;
+    background-color: #F5F5F5;
+    margin-bottom:5px;
+    clear: both;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-left: 5px solid #b30000;
+    overflow: auto;
+}
+#ttsk .ttsk1{
+	float: left;
+	padding-right: 30px;
+}
+#ttsk .dkh{
+	float: right;
+	background: #ff1a1a;
+}
+#ttsk .dkh a{
+	text-decoration: none;
+	color: white;
+}
+#ttsk .dkh a:hover{
+	background: red;
+	text-decoration: none;
+	color: white;
+}
+#sukien{
+	overflow: auto;
+	margin-left: 100px;
+}
+#sukien img{
+	width: 300px;
+	height: 200px;
+}
+#sukien #sk1,#sk2,#sk3{
+	width: 30%;
+	float: left;
+}
+#sukien a{
+	text-decoration: none;
+	color: black;
+}
+#sukien a:hover{
+	text-decoration: none;
+	color: #800000;
+}
+#ctdaotao{
+	overflow: auto;
+	margin-left:100px;
+	margin-right: 100px; 
+}
+#ctdaotao div.linkctdt{
+	height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #CDCDCD;
+    background-color: #F5F5F5;
+    margin-bottom:5px;
+    clear: both;
+    border-left: 5px solid #b30000;
+}
+#ctdaotao #ndctdt img{
+	width:280px;
+	height: 350px;
+}
+#ctdaotao #ndctdt #nd1,#nd2,#nd3,#nd4{
+	float: left;
+	width: 25%;	
+}
+#ctdaotao #ndctdt #nd1 p.nd11,#nd2 p.nd21,#nd3 p.nd31,#nd4 p.nd41{
+	color: #800000;
+	margin-left: 70px;
+}
+#ctdaotao #ndctdt a.a1{
+	background: #ff6666;
+	color: white;
+	margin-left: 80px;
+	text-decoration: none;
+}
+#ctdaotao #ndctdt a.a1:hover{
+	background: red;
+	color: white;
+	margin-left: 70px;
+	text-decoration: none
+}

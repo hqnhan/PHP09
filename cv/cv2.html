@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV cá nhân</title>
+	<link rel="stylesheet" type="text/css" href="stylecv2.css">
+	<link rel="shorcut icon" href="favicon.ico">
+</head>
+<body>
+	<div id="header">
+		<div id="image"><input type="file" name="avarta"></div>
+		<h1><input type="text" name="name" required="" placeholder="FULL NAME"></h1>
+		<ul id="class1">
+			<li class="birt"><input type="text" name="birtday" required="" placeholder="BIRTDAY"></li>
+			<li class="phone"><input type="text" name="phone" required="" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="PHONE NUMBER" ></li>
+			<li class="email"><input type="text" name="email" required="" placeholder="EMAIL"></li>
+			<li class="gender">	
+				<input type="radio" name="gender" value="Nam" checked>Nam 
+				<input type="radio" name="gender" value="Nu">Nữ
+				<input type="radio" name="gender" value="Khac">Khác
+			</li>
+			<li class="address"><input type="text" name="address" required="" placeholder="ADDRESS"></li>
+		</ul>
+	</div>
+	<div id="section">
+		<div id="muctieu">
+			<h1>Mục Tiêu</h1>
+			<textarea rows="15" cols="130" placeholder="Please enter your comments"></textarea>
+		</div>
+		<div id="education">
+			<h1>Học Vấn</h1>
+			<textarea rows="15" cols="130" placeholder="Please enter your comments"></textarea>
+		</div>
+		<div id="skill">
+			<h1>Kỹ Năng</h1>
+			<textarea rows="15" cols="130" placeholder="Please enter your comments"></textarea>
+		</div>
+		<div id="study">
+			<h1>Đồ án - Khóa Luận</h1>
+			<textarea rows="15" cols="130" placeholder="Please enter your comments"></textarea>
+		</div>
+		<div id="hobby">
+			<h1>Sở Thích</h1>
+			<textarea rows="15" cols="130" placeholder="Please enter your comments"></textarea>
+		</div>
+		<div id="chungchi">
+			<h1>Chứng Chỉ</h1>
+			<textarea rows="15" cols="130" placeholder="Please enter your comments"></textarea>
+		</div>
+	</div>
+	<div id="footer">
+		<form>
+			<input type="reset" name="reset" value="Reset">
+			<input type="submit" name="submit" value="Submid">
+		</form>
+	</div>
+</body>
+</html>

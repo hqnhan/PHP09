@@ -1,0 +1,47 @@
+body{
+	width: 90%;
+	height: 1000px;
+	margin: 15px auto ;
+	border: 1px solid black;
+}
+header img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 100px;
+}
+header h1{
+	color: #ff6600;
+	text-align: center;
+	font-size: 200%;
+}
+header p{
+	color:green;
+	font-style: italic;
+	text-align: center;
+	font-size: 100%;
+}
+header{
+	border-bottom: 2px solid #ff6600;
+	height: 120px;
+}
+section{
+	width: 55%;
+	border-right: 2px solid #ff6600;
+	float: left;
+	column-count: 2;
+	height: 500px;
+	margin: 50px;
+}
+aside{
+	width: 35%;
+	float: right;
+	margin-top: 30px;	
+	
+}
+aside li a{
+	color: green;
+}
+aside h2 a,.phu a{
+	color: yellow;
+}

@@ -1,0 +1,31 @@
+
+header{
+	color: green;
+	text-align: center;
+	height: 200px;
+	font-family:fd;
+	margin: 100px;
+	margin-bottom: 5px;
+
+}
+header .hd1{
+	font-size: 60px;
+}
+header .hd2{
+	font-size: 50px;
+}
+section #sc{
+	margin: 100px
+	margin-bottom:10px;
+}
+footer{
+	text-align: right;
+	font-weight: bold;
+	height: 100px;
+	margin: 100px;
+	border-left: 20px;
+	margin-bottom: 10px;
+}
+.hd1{
+	color: #B43104;
+}

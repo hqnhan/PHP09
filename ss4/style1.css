@@ -1,0 +1,60 @@
+ul li.home{
+	list-style-image:url('home.ico');
+	border: 2px solid;
+	width: 50px;
+	float: left;
+	margin-right: 12%;
+
+}
+ul li.new{
+	list-style-image: url('new.ico');
+	border: 2px solid;
+	width: 50px;
+	float: left;
+	margin-right: 5%;
+}
+ul li.music{
+	list-style-image: url('music.ico');
+	border: 2px solid;
+	width: 50px;
+	float: left;
+	margin-right: 5%;
+}
+ul li.football{
+	list-style-type: circle;
+	border: 2px solid;
+	width: 90px;
+	float: left;
+	margin-right: 5%;
+}
+ul li.volleyball{
+	list-style-type: square;
+	float: left;
+	margin-right: 5%;
+}
+ul li.tennis{
+	list-style-type: disc;
+	float: left;
+	margin-right: 5%;
+}
+ul li.contact{
+	list-style-type: none;
+	float: left;margin-right: 5%;
+}
+ol li.toa1{
+	list-style-type: decimal-leading-zero;
+}
+ol li.toa2{
+	list-style-type: upper-alpha;
+}
+a:visited{
+	color:pink;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color:red;
+}
+#A , #B{
+	height: 600px;
+}

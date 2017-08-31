@@ -1,0 +1,23 @@
+body{
+	background: blue;
+}
+@media screen and (max-width: 960){
+	body{
+		background: red;
+	}
+}
+@media screen and (max-width: 768px){
+	body{
+		background: orange;
+	}
+}
+@media screen and (max-width: 550px){
+	body{
+		background: yellow;
+	}
+}
+@media screen and (max-width: 320px){
+	body{
+		background: green;
+	}
+}

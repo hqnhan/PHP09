@@ -1,0 +1,32 @@
+body h1{
+	border-bottom: 2px solid;
+}
+ul#pp1{
+	border-bottom: 2px solid;
+	height: 30px;
+}
+#pp1 li{
+	float: left;
+	border-right: 2px solid;
+	margin-right: 12%;
+	list-style-type: none;
+}
+#pp1 a{
+	padding: 30px;
+}
+#pp1 li.becom a{
+	text-decoration: none;
+}
+#ul3{
+	width: 140px;
+	margin-top: 40px;
+	margin-right: solid none;
+}
+#pp1 li.becom ul#ul3{
+	display:none;
+}
+#pp1 li.becom:hover ul#ul3{
+	display: block;
+
+
+

@@ -1,0 +1,67 @@
+#header{
+	height: 200px;
+	background: #3c9a80;
+	margin: 0 100px;
+}
+#image{
+	float: left;
+	width: 200px;
+	height: 170px;
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: white;
+}
+#header h1{
+	width: 300px;
+	height: 30px;
+	color: white;
+	float: left;
+	margin: 82px 0;
+}
+#class1 {
+	float: left;
+	border-left: 1px solid white;
+	font-size:20px;
+	margin: 22px 22px;
+	padding-left: 40px;
+	padding-top: 8px;
+}
+#header #class1 li{
+	color: white; 
+}
+#class1 .birt{
+	list-style-image: url('lich.png');
+}
+#class1 .phone{
+	list-style-image: url('phone.png');
+}
+#class1 .email{
+	list-style-image: url('email.png');
+}
+#class1 .gender{
+	list-style-image: url('gioitinh.png');
+}
+#class1 .address{
+	list-style-image: url('home.png');
+}
+#section{
+	margin: 0 200px;	
+
+}
+#section h1{
+	color: #3c9a80;
+	border-bottom: 2px solid #3c9a80;
+	padding-left: 50px;
+}
+#footer{
+	height: 50px;
+	background: #3c9a80;
+	margin: 0 100px;
+}
+#footer input{
+	float: right;
+	height: 30px;
+	width: 100px;
+	margin: 10px;
+}
