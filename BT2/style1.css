@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	color: white;
+	background-color: #4d94ff;
+	font-size: 200%;
+}
+section{
+	height: 650px;
+}
+section .man{
+	border: 10px solid white;
+	float: left;
+	margin-left: 230px;
+	width: 600px;
+	height: 300px;
+	background-color: #33cc33;
+	color: white;
+}
+section .man p{
+	font-size: 500%;
+	padding: 60px;
+}
+section .sidebar {
+	float: left;
+	width: 279px;
+	height: 300px;
+	border:10px solid white;
+	background-color: #9933ff;
+	color: white;
+
+}
+section .sidebar p{
+	font-size: 500%;
+	padding-top: 60px;
+}
+section .twin1{
+	margin-left: 230px;
+	float: left;
+	width: 440px;
+	height: 300px;
+	border:10px solid white;
+	background-color:#ff9900;
+	color: white;
+
+}
+section .twin1 p{
+	font-size: 500%;
+	padding:100px;
+}
+section .twin{
+	float: left;
+	width: 440px;
+	height: 300px;
+	border:10px solid white;
+	background-color:#ff9900;
+	color: white;
+}
+section .twin p{
+	font-size: 500%;
+	padding:100px;
+}
+footer {
+	background-color: #0000ff;
+	color: white;
+	font-size: 500%;
+}

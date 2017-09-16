@@ -1,0 +1,32 @@
+#Tweets{
+	float: left;
+	width: 25%;
+	height: 800px;
+	color: white;
+	font-size: 200%;
+	background-color: #99ccff;
+}
+#Replles{
+	background-color: #ffcc00;
+	float: left;
+	width: 25%;
+	height: 800px;
+	color: white;
+	font-size: 200%;
+}
+#Search{
+	float: left;
+	width: 25%;
+	height: 800px;
+	color: white;
+	font-size: 200%;
+	background-color: #808080;
+}
+#Messages{
+	background-color: #6699ff;
+	float: left;
+	width: 25%;
+	height: 800px;
+	color: white;
+	font-size: 200%;
+}
