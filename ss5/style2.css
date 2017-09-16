@@ -1,6 +1,21 @@
 body{
 	margin: 0 30px ;
 }
+* {
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 header{
 	background:  #80bfff;
 	overflow: hidden;
@@ -120,87 +135,4 @@ footer{
 	overflow: hidden;
 	padding: 10px;
 
-}
-@media screen and (max-width: 960px){
-	body{
-	width: 760px;
-}
-header{
-	width: 760px;
-	margin-bottom: 10px;
-	padding: 10px;
-
-}
-header .Brand{
-	width: 100px;
-	height: 30px;
-	margin: 10px;
-}
-header .Global{
-	width: 420px;
-	height: 30px;
-	margin: 10px;
-}
-header .Tools{
-	float: left;
-	width: 180px;
-	height: 30px;
-	margin: 10px;
-}
-section{
-	width: 760px;
-	padding: 10px;
-	border-bottom: 20px solid white;	
-}
-section #hero{
-	width: 750px;
-	padding-left: 15px;
- 	border-bottom: 10px solid white;	
-}
-section #hero .hero1{
-	width: 720px;
-	height: 40px;
-}
-section #hero .hero2{
-	width: 	720px;
-	height: 40px;
-}
-section #AD{
-	display: none;
-}
-section #body{
-	width: 760px;
-	border-bottom: 20px solid white;
-	padding-left: 15px;
-	padding-bottom: 20px;
-}
-section #body .body1{
-	width: 500px;
-	height: 150px;
-	margin: 5px;
-}
-section #body .body2{
-	width: 710px;
-	height: 200px;
-	margin: 10px;
-}
-section #body .ad2{
-	width: 200px;	
-	height:150px;
-	margin: 5px;
-}
-section #sidebar{
-	width: 760px;	
-	padding-bottom: 20px;
-}
-section #sidebar .side{
-	width: 720px;
-	height: 80px;
-	margin: 10px;
-}
-footer{
-	width: 760px;
-	padding: 10px;
-
-}
 }

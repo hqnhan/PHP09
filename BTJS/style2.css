@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+header {
+	background-color: #3b5998;
+	height: 100px;
+}
+#logo .facebook {
+	float: left;
+	padding-left: 50px;	
+	margin-top: 20px;
+}
+#logo .facebook a{
+	text-decoration: none;
+	color: white;
+	font-size: 150%;
+	padding-left: 50px;
+}
+#login .tablelogin {
+	margin-right: 255px;
+	float:right;
+	color: white;
+	margin-top:30px;
+}
+#login .forgoterpassword a{
+	text-decoration: none;
+	color: #99b3ff;
+}
+#login .forgoterpassword a:hover {
+	text-decoration: underline;
+	color: #99b3ff;
+}
+section .sologen{
+	color: #3b5998;
+	font-size: 170%;
+	font-family: inherit;
+}
+section .contentleft p{
+	margin-left: 85px;
+	margin-top: 20px;
+}
+section .contentleft img{
+	margin-left: 55px;
+}
+section .contentright .createanaccount{
+	float: left;
+	font-size: 300%;
+	color: #3b5998;
+	font-family: inherit;
+}
+section .contentright .account {
+	font-size: 18px;
+	padding: 7px 8px;
+	border-color: #bdc7d8;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+section .contentright .account input{
+	padding: 8px 10px;
+	height: 40px;
+	border: 1px solid #bdc7d8;
+	border-color: #bdc7d8;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+section .birthday p{
+	padding-left: 10px;
+	font-size: 120%;
+}
+section .birthday select{
+	margin-left: 10px;
+	height: 30px;
+}
+section .birthday .abirthday{
+	width: 168px;
+	text-decoration: none;
+	font-size: 75%;
+	display: inline-block;
+	padding: 15px;
+}
+section .birthday .abirthday:hover {
+	width: 168px;
+	text-decoration: underline;
+	font-size: 80%;
+	display: inline-block;
+	padding: 15px;
+}
+section .birthday .gender{
+	font-weight: bold;
+	padding: 10px;
+	border-right: 10px;
+}
+section .birthday .gender input{
+	width: 30px;
+}
+[class*="col-"] {
+
+    float: left;
+    padding: 15px;
+}
+.birthday .mes{
+	color: #777;
+	padding-left: 10px;
+	width: 400px;
+	font-size: 15px;
+}
+.caa button{
+	background-color: #69a74e;
+	color: white;
+	width: 200px;
+	height: 40px;
+	font-size: 110%;
+	margin-left: 100px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.caa button:hover{
+	background-color:#3b6e22;
+	color: white;
+	width: 200px;
+	height: 40px;
+	font-size: 110%;
+	margin-left: 100px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}	

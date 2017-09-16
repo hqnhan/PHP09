@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java Script 2</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<header>
+		<form>
+		<div id="logo">
+			<h1 class="facebook"><a href="link" title="Trang chủ facebook">facebook</a></h1>	
+		</div>	
+		<div id="login">
+			<table class="tablelogin">
+				<tr>
+					<td>Email or phone</td>
+					<td>Password</td>
+				</tr>
+				<tr>
+					<td><input type="Email" name="email" id="email"></td>
+					<td><input type="password" name=" password" id="password"></td>
+					<td class="loginfacebook"><input type="button" name="buttonLogin" value="Log in" id="buttonlogin" onclick='checkeorpass();'></td>
+				</tr>	
+				<tr>
+					<td><input type="checkbox" name="checkbox" value="">keep me logged in</td>
+					<td class="forgoterpassword"><a href="link">forgoter your password?</a></td>
+				</tr>
+			</table>
+		</div>
+		</form>
+	</header>
+	<section>
+		<div class=" col-6 contentleft">
+			<p class="sologen">Facebook helps you connect and share with the people in your life.</p>
+			<img src="contentfb.png" alt="Hello Facebook">
+		</div>
+		<div class="col-6 contentright">
+			<div class="col-12 createanaccount">Create an account </div>
+			<div class="col-12" style='font-size: 150%;'>It's free and always will be.</div>
+			<div class="account">
+				<form>
+					<input type="text" name="firstname" id="firstname" placeholder="First Name" style='width:200px;'>
+					<input type="text" name="surnam" id="surnam" placeholder="Surname" style='width:200px;'><br>
+					<input type="text" name="mobile" id="mobile" placeholder="Mobile number or email address" style='width:405px;'><br>
+					<input type="text" name="newpassword" id="newpassword" placeholder="New password" style='width:405px;'>
+				</form>			
+			</div>
+			<div class="birthday">
+				<form>
+					<p>Birth Day</p>
+					<select>
+						<option>Day</option>
+						<option></option>
+					</select>
+					<select>
+						<option>Month</option>
+						<option></option>
+					</select>
+					<select>
+						<option>Year</option>
+						<option></option>
+					</select>
+					<a href="link" class="abirthday">Why do I need to provide my date of birth?</a>
+					<div class="gender"><input type="radio" name="radio">Famele<input type="radio" name="radio2">Male</div>
+					<div class="mes">
+						By clicking Create an account, you agree to our <a href="link">Terms</a> and confirm that you have read our <a href="link">Data Policy</a>, including our <a href="link">Cookie</a> <a href="link">Use Policy</a>. You may receive SMS message notifications from Facebook and can opt out at any time.
+					</div>
+				</form>
+			</div>
+			<div class="caa">
+				<button onclick='changeBorder();'>Create an account</button>
+				<p id="test"></p>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript">
+		function changeBorder() {
+				document.getElementById("firstname").style.border = "3px solid red";
+				document.getElementById("surnam").style.border = "3px solid red";
+				document.getElementById("mobile").style.border = "3px solid red";
+				document.getElementById("newpassword").style.border = "3px solid red";	
+		}
+		function checkEmail() {
+			var email = document.getElementById('email');
+			var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+			if(!filter.test(email.value)) {
+				alert("please re-enter email");
+				email.focus;
+				return false;
+			}
+		}
+		function checkPassword() {
+			var password = document.getElementById('password');
+			var filter = /[a-zA-Z0-9]{6,}/;
+			if(!filter.test(password.value)) {
+				alert("please re-enter password");
+			}
+		}
+		function checkeorpass(){
+			checkEmail();
+			checkPassword();
+		}
+	</script>
+</body>
+</html>

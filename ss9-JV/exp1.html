@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+</head>
+<body>
+	<h1>EXAMPLE function</h1>
+	<h2 id="demo"></h2>
+	<h2 id="demo1"></h2>
+	<h2 id="demo2"></h2>
+	<h2 id="demo3"></h2>
+	<form>
+		price:<input type="date" name="price" id="price" onchange = 'document.getElementById("printHere").innerHTML = document.getElementById("price").value'>
+		discount:<input type="text" name="discount" id="discount">
+		<input type="button" name="submit" value="submit"  onclick='document.getElementById("printdiscount").innerHTML = document.getElementById("price").value - document.getElementById("price").value * document.getElementById("discount").value /100'>
+		<p id="printHere"></p>
+		<p id="printdiscount"></p>
+		<p id="printdiscount1"></p>
+		<p id="value"></p>
+	</form>
+	<script type="text/javascript" src="common.js">		
+	</script>
+</body>
+</html>

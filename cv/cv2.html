@@ -6,13 +6,17 @@
 	<link rel="shorcut icon" href="favicon.ico">
 </head>
 <body>
+<form>
 	<div id="header">
-		<div id="image"><input type="file" name="avarta"></div>
-		<h1><input type="text" name="name" required="" placeholder="FULL NAME"></h1>
+		<div >
+			<div id="image"></div>
+			<input type="file" name="avarta">
+		</div>
+		<h1><input type="text" name="name" required="" required="Nhap thong tin" placeholder="FULL NAME"></h1>
 		<ul id="class1">
-			<li class="birt"><input type="text" name="birtday" required="" placeholder="BIRTDAY"></li>
-			<li class="phone"><input type="text" name="phone" required="" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="PHONE NUMBER" ></li>
-			<li class="email"><input type="text" name="email" required="" placeholder="EMAIL"></li>
+			<li class="birt"><input type="text" name="birtday" required pattern="[01]?\d\/[0-3]\d\/\d{4}" title="Must be DD/MM/YYYY" placeholder="BIRTDAY"></li>
+			<li class="phone"><input type="text" name="phone" required pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 9999-999-999 or 999-9999-9999" placeholder="PHONE NUMBER" ></li>
+			<li class="email"><input type="text" name="email" required placeholder="EMAIL"></li>
 			<li class="gender">	
 				<input type="radio" name="gender" value="Nam" checked>Nam 
 				<input type="radio" name="gender" value="Nu">Nữ
@@ -53,5 +57,6 @@
 			<input type="submit" name="submit" value="Submid">
 		</form>
 	</div>
+</form>	
 </body>
 </html>
