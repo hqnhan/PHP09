@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VD</title>
+</head>
+<body>
+	<p id="txttext">The mixtape received mixed reviews from music critics. The mixtape was praised for its production but criticized for its lack of originality, unfinished nature and Desiigner's own performance on the project. Matthew Ramirez of Pitchfork said about the album, "It sounds like the last five years of hip-hop watered down.
+	</p>
+	<input type="text" name="text" id="text">
+	<input type="button" name="button" value="Show" onclick="textReplace()">
+	<script type="text/javascript">
+		function textReplace() {
+			var str = document.getElementById("txttext").innerHTML;
+   			var text = document.getElementById('text').value;
+   			var textcolor = text.fontcolor("red");
+   			var replace = str.replace(new RegExp(text,'g'),textcolor);
+  			document.getElementById("txttext").innerHTML= replace;
+  		}
+	</script>
+</body>
+</html>

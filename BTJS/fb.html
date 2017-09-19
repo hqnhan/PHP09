@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Java Script 2</title>
-	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="fb.css">
+	<link rel="shorcut icon"  href="fb.ico">
 </head>
 <body>
 	<header>
@@ -22,7 +23,7 @@
 					<td class="loginfacebook"><input type="button" name="buttonLogin" value="Log in" id="buttonlogin" onclick='checkeorpass();'></td>
 				</tr>	
 				<tr>
-					<td><input type="checkbox" name="checkbox" value="">keep me logged in</td>
+					<td></td>
 					<td class="forgoterpassword"><a href="link">forgoter your password?</a></td>
 				</tr>
 			</table>
@@ -48,17 +49,26 @@
 			<div class="birthday">
 				<form>
 					<p>Birth Day</p>
-					<select>
-						<option>Day</option>
-						<option></option>
+					<select name="birthDay" id="day" onmouseover="dayFunction()">
+						<option value="Day" selected="">Day</option>
 					</select>
-					<select>
-						<option>Month</option>
-						<option></option>
+					<select name="Month" id="month" onmouseover="monthFunction()">
+						<option value="Month" selected="">Month</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
 					</select>
-					<select>
-						<option>Year</option>
-						<option></option>
+					<select name="year" id="year" onmouseover="yearFunction()">
+						<option value="year" selected="">Year</option>
 					</select>
 					<a href="link" class="abirthday">Why do I need to provide my date of birth?</a>
 					<div class="gender"><input type="radio" name="radio">Famele<input type="radio" name="radio2">Male</div>
@@ -73,33 +83,7 @@
 			</div>
 		</div>
 	</section>
-	<script type="text/javascript">
-		function changeBorder() {
-				document.getElementById("firstname").style.border = "3px solid red";
-				document.getElementById("surnam").style.border = "3px solid red";
-				document.getElementById("mobile").style.border = "3px solid red";
-				document.getElementById("newpassword").style.border = "3px solid red";	
-		}
-		function checkEmail() {
-			var email = document.getElementById('email');
-			var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-			if(!filter.test(email.value)) {
-				alert("please re-enter email");
-				email.focus;
-				return false;
-			}
-		}
-		function checkPassword() {
-			var password = document.getElementById('password');
-			var filter = /[a-zA-Z0-9]{6,}/;
-			if(!filter.test(password.value)) {
-				alert("please re-enter password");
-			}
-		}
-		function checkeorpass(){
-			checkEmail();
-			checkPassword();
-		}
+	<script type="text/javascript" src="fb.js">
 	</script>
 </body>
 </html>
