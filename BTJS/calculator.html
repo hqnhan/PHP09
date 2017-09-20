@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>May tinh js</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<form>
+		<table id="calculator">
+			<tr>
+				<td colspan="5"><input type="text" name="txtshow" id="txtshow"></td>
+			</tr>
+			<tr>
+				<td><input class="butnum" type="button" name="but7" value="7" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="but8" value="8" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="but9" value="9" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="butDEL" value="DEL" onclick="delShow()"></td>
+				<td><input class="butnum" type="button" name="butAC" value="AC" onclick="acShow()" ></td>
+			</tr>
+			<tr>
+				<td><input class="butnum" type="button" name="but4" value="4" onclick="showNumber(this.value)"></td>
+				<td><input class="butnum" type="button" name="but5" value="5" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="but6" value="6" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="butn" value="*" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="butc" value="/" onclick="showNumber(this.value)" ></td>
+			</tr>
+			<tr>
+				<td><input class="butnum" type="button" name="but1" value="1" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="but2" value="2" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="but3" value="3" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="butcg" value="+" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="buttr" value="-" onclick="showNumber(this.value)" ></td>
+			</tr>
+			<tr>
+				<td><input class="butnum" type="button" name="but0" value="0" onclick="showNumber(this.value)" ></td>
+				<td><input class="butnum" type="button" name="butch" value="." onclick="showNumber(this.value)" ></td>
+				<td colspan="3"><input class="buteval" type="button" name="buteval" value="=" onclick="evalShow()"></td>
+			</tr>
+		</table>
+	</form>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

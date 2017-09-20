@@ -40,16 +40,16 @@
 			<div class="col-12" style='font-size: 150%;'>It's free and always will be.</div>
 			<div class="account">
 				<form>
-					<input type="text" name="firstname" id="firstname" placeholder="First Name" style='width:200px;'>
-					<input type="text" name="surnam" id="surnam" placeholder="Surname" style='width:200px;'><br>
-					<input type="text" name="mobile" id="mobile" placeholder="Mobile number or email address" style='width:405px;'><br>
-					<input type="text" name="newpassword" id="newpassword" placeholder="New password" style='width:405px;'>
+					<input type="text" name="firstname" id="firstname" required placeholder="First Name" onclick="textBorder('firstname');" style='width:200px;'>
+					<input type="text" name="surnam" id="surnam" placeholder="Surname" onclick="textBorder('surnam');" style='width:200px;'><br>
+					<input type="text" name="mobile" id="mobile"  placeholder="Mobile number or email address" style='width:405px;' onclick="textBorder('mobile');"><br>
+					<input type="text" name="newpassword" id="newpassword" placeholder="New password" style='width:405px;' onclick="textBorder('newpassword');">
 				</form>			
 			</div>
 			<div class="birthday">
 				<form>
 					<p>Birth Day</p>
-					<select name="birthDay" id="day" onmouseover="dayFunction()">
+					<select name="birthDay" id="day" onmousemove="dayFunction()">
 						<option value="Day" selected="">Day</option>
 					</select>
 					<select name="Month" id="month" onmouseover="monthFunction()">
