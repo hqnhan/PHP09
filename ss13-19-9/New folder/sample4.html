@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Driver</title>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<section id="section">
+		<form action="drive">
+			<input type="button" id="left" value="Left">
+			<input type="button" id="right" value="Right">
+		</form>
+		<img src="car.png" alt="car" id="mycar" style="position: absolute; top: 45vh;">
+		<img src="tree.png" alt="tree" id="tree" style="position: absolute; right: 30px; width: 200px;height: 300px; top: 15vh;">
+		<img src="Fireball.png" alt="collision" id="fireball" style="position: absolute; right: 131px; height: 3vh; top: 55vh; display: none;">
+		<img src="explosion.png" alt="explosion" id="explosion" style="position: absolute; right: 119px; height: 6vh; top: 55vh; display: none;">
+		<img src="dua.png" alt="dua" id="coconut" style="position: absolute;right: 140px; height:50px;width: 50px;top: 30vh;">
+		<p id="txttext" style="position: absolute;font-size: 50px; top: 30vh; right:500px; display: none;">GAME OVER</p>
+	</section>
+	<script type="text/javascript">
+		var f = true;
+		var fball = $("#fireball");
+		var explo = $("#explosion");
+		$(document).ready(function(){
+			$("#left").click(function(){
+				$("#mycar").animate({right: '90%'},1500);
+				$("#mycar").css('-webkit-transform','rotateY('+180+'deg)');
+				explo.hide();
+				$("#txttext").hide();
+			});
+			$("#right").click(function(){
+				$("#mycar").animate({right: '135px'},1500);
+				$("#mycar").css('-webkit-transform','rotateY('+0+'deg)');
+				fball.delay(1400).show(200).hide(200);
+				explo.delay(2000)
+						.show(200)
+						.animate({
+							right: '82px',
+							height: '14vh',
+							top: '55vh'
+						},200);
+					$("#coconut").delay(1600).animate({top:'55vh'},500);
+					$("#txttext").delay(1600).show(2100);
+					$("body").delay(2200).css({background:"red"});					
+				});
+			});
+	</script>
+</body>
+</html>

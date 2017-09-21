@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SS10-16-9</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<link rel="shorcut.icon" href="favicon.ico">
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<p id="text">This is.....</p>
+	<form>
+		<input type="button" name="hide" value="Hide" id="hide" >
+		<input type="button" name="show" value="Show" id="show" ><br>
+		<input type="button" name="left" value="Left" id="left">
+		<input type="button" name="right" value="Right" id="right">
+		<div style="position:absolute;"><img src="car.png"></div>
+
+	</form>
+	<script type="text/javascript">
+		//function hideq() {
+		//	document.getElementById("text").style.display = "none";
+		//}
+		//function showq() {
+		//	document.getElementById("text").style.display = "block";
+		//}
+		$(document).ready(function(){
+			$('#hide').click(function(){
+				$('p').hide();
+			})
+			$('#show').click(function(){
+				$('p').show();
+			})
+		});
+		$(document).ready(function(){
+    		$('#right').click(function(){
+     		   $("div").animate({left: '+=250px'},1000);
+     		   $("img").css("transform","rotateY(10deg)");
+   			 });
+		});	
+		$(document).ready(function(){
+    		$('#left').click(function(){
+     		   $("div").animate({left: '0'});
+     		   $("img").css("transform","rotateY(180deg)");
+   			 });
+		});	
+
+	</script>
+</body>
+</html>
