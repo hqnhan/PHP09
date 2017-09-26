@@ -9,36 +9,35 @@
 	<form>
 		Name:<input type="text" name="txtname" id="txtname"><br>
 		Height:<input type="text" name="txtheight" id="txtheight"><br>
-		KG:<input type="text" name="txtkg" id="txtkg">
-		<input type="button" name="show" value="Show" id="butshow" onclick="showHBI()"><br>
-		<img src="fat.jpg" alt="fat" id="imgfat" style="display: none; width: 600px; height: 550px;">
-		<img src="skinny.jpg" alt="skinny" id="imgskinny" style="display: none;">
-		<img src="body.jpg" alt="body" id="imgbody" style="display: none;">
+		KG:<input type="text" name="txtkg" id="txtkg"  onmouseout="showHBI()">
+		<p id="demo"></p>
+		<img src="fat.jpg" alt="fat" id="imgfat" style="display: none; width: 300px; height: 250px;">
+		<img src="skinny.jpg" alt="skinny" id="imgskinny" style="display: none; width: 300px; height: 250px;">
+		<img src="body.jpg" alt="body" id="imgbody" style="display: none; width: 300px; height: 250px;">
 	</form>
 	<script type="text/javascript">
 		var kg = document.getElementById('txtkg');
 		var height = document.getElementById('txtheight');
 		function showHBI() {
 			var HBI = kg.value / (height.value*height.value);
-			if (HBI <= 18.5) {
-				$(document).ready(function() {
-					$('#imgskinny').show();
-					$('#imgbody').hide();
-					$('#imgfat').hide();					
-				});
-			} else if(HBI > 18.5 && HBI <= 25){
-				$(document).ready(function() {
-					$('#imgbody').show();
-					$('#imgskinny').hide();
-					$('#imgfat').hide();
-				});
-			}else{
-				$(document).ready(function() {
-					$('#imgfat').show();
-					$('#imgskinny').hide();
-					$('#imgbody').hide();
-				});
-			}
+			$(document).ready(function() {
+					if (HBI <= 18.5) {	
+						$('#imgskinny').show();
+						$('#imgbody').hide();
+						$('#imgfat').hide();
+						$('#demo').text("Thân Hình Quá Ốm");					
+					} else if(HBI > 18.5 && HBI <= 25){			
+						$('#imgbody').show();
+						$('#imgskinny').hide();
+						$('#imgfat').hide();
+						$('#demo').text("Thân Hình Quá Chuẩn");		
+					}else{
+						$('#imgfat').show();
+						$('#imgskinny').hide();
+						$('#imgbody').hide();
+						$('#demo').text("Thân Hình Quá Mập");
+				}
+			});
 		}
 		
 	</script>

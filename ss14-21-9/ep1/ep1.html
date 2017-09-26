@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> JS MENU 21-9 </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="slicknav.css">
+	<link rel="stylesheet" type="text/css" href="jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="jquery.bxslider.min.css">
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="jquery.slicknav.min.js"></script>
+	<script type="text/javascript" src="jquery.bxslider.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<div id="menu">
+		<ul>
+ 	 		<li><a href="linl">Trang Chủ</a></li>
+ 	 		<li><a href="link">Tin Tức, Sự Kiện</a></li>
+ 	 		<li><a href="link">Chương Trình Học</a></li>
+ 	 		<li><a href="link">Khóa Học Hè</a></li>
+ 	 		<li><a href="link">Tuyển Sinh</a></li>
+ 	 		<li><a href="link">Góc Học Viên</a></li>
+ 	 		<li><a href="link">EBOOK</a></li>
+ 	 		<li><a href="link">Liên Hệ</a></li>
+ 	 		<li><a href="link">Giới Thiệu</a></li>
+		</ul>
+	</div>
+	<div>	
+		<ul class="bxslider">
+			<li><img src="ap1.jpg" alt="ap1" title="ANH 1"></li>
+			<li><img src="ap2.jpg" alt="ap2"></li>
+			<li><img src="ap3.jpg" alt="ap3"></li>
+		</ul>
+	</div>	
+	<script type="text/javascript">
+		$(function(){
+			$('#menu').slicknav();
+		});
+		$('.bxslider').bxSlider({	
+  			mode: 'fade',
+  			captions: true
+		});
+	</script>
+	
+</body>
+</html>

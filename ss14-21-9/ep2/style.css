@@ -1,0 +1,29 @@
+.number{
+	border:2px solid;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+.number2 {
+	border:2px solid;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+.number3 {
+	border:2px solid;
+	text-align: center;
+	background-color: green;
+	color: white;
+}
+.number4 {
+	border:2px solid;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+.number5{
+	text-align: center;
+	background-color: grey;
+	color: white;
+}

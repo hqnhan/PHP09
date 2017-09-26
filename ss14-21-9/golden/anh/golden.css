@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#intro,#menu{
+	margin:0 100px;
+}
+#menu {
+	height: 135px;
+}
+#menu li a{
+	color: black;
+	margin-top: 20px;
+	padding: 7px 8px;
+	float: left;
+}
+#menu li a:hover{
+	color: green;
+}
+#menu li a:focus {
+	color: green;
+}
+section .namenu {
+	height: 170px;
+}
+section .namenu .sp {
+	text-align: center;
+
+}
+section .namenu .navsp{
+	margin-left: 270px;
+}
+section .namenu .navsp li{
+	margin:10 20px;
+	float: left;
+	list-style-type: none;
+	padding: 13px 29px;
+}
+section .namenu .navsp li a{
+	color: black;
+	margin-top: 20px;
+	float: left;
+}
+section .namenu .navsp li a:hover{
+	color: green;
+	text-decoration: none;
+}
+section .slider2{
+	height: 500px;
+}
+section .txtwhyjoin{
+	text-align: center;
+}
+section .txtwhyjoin span{
+	color: #990000;
+}
+section .whyjoin{
+	margin:0 100px;
+}
+section .news{
+	margin: 0 100px;
+	margin-bottom: 30px;
+}
+section .news{
+	text-align: center;
+}
+section .ttimage {
+	background-image: url('ttimge.jpg');
+	background-repeat: no-repeat;
+	height: 500px;
+}
+section .txtimage{
+	text-align: center;
+}
+section .ttkh .txtname{
+	width: 300px;
+	height: 50px;
+}

@@ -1,0 +1,42 @@
+.bxslider  img{
+	margin-left: 100px; 
+	width: 1140px;
+	height: 450px;
+}
+.slicknav_menu {
+	display: none;
+}
+#menu{
+	height: 100px;
+}
+#menu li{
+	list-style-type: none;
+	float: left;
+	padding: 15px 29px;
+	background: black;
+}
+#menu li:hover {
+	list-style-type: none;
+	float: left;
+	padding: 15px 29px;
+	background: yellow;
+	color: black;
+}
+#menu li a{
+	text-decoration: none;
+	color: yellow;
+}
+#menu li a:hover {
+	text-decoration: none;
+	color: black;
+}
+.bxslider{
+}
+@media screen  and (max-width: 40em) {
+	 #menu {
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+	}
+}

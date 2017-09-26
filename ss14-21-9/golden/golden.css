@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header .nav li{
+	float: left;
+	padding: 20px 8px;
+}
+header .nav li a{
+	color: black;
+}
+header .nav li a:hover{
+	color: green;
+}
+header .nav li a:focus{
+	color: green;
+}
+section .slider1{
+	height: 670px;
+	background-image: url('anh/slider1.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+section .slider1 .row1slider1{
+	padding:25px;
+	font-size: 200%;
+	background-color: #3B9A34;
+	color: white;
+	margin-top: 100px;
+	text-align: center;
+}
+section .slider1 .row2slider1{
+	font-size: 250%;
+	color: green;
+}
+section .slider1 .carousel-inner .item{
+	height: 200px;
+}
+section .sanpham{
+	text-align: center;
+}
+section .navds {
+	margin:0 150px;
+}
+section {
+	margin:0;
+}
+section  .navsp li{
+	margin:10 20px;
+	float: left;
+	list-style-type: none;
+	padding: 13px 29px;
+}
+section  .navsp li a{
+	color: black;
+	margin-top: 20px;
+	float: left;
+}
+section .navsp li a:hover{
+	color: green;
+	text-decoration: none;
+}
+section .namenu .navsp{
+	margin-left: 270px;
+}
+section .txtwhyjoin{
+	text-align: center;
+}
+section .txtwhyjoin span{
+	color: #990000;
+}
+section .whyjoin{
+	margin:0 100px;
+}
+section .blank {
+	border-right: 2px solid green;
+	height: 70px;
+}
+section .seemore{
+	text-align: center;
+}
+section  .contact{
+	height: 500px;
+	background-image: url('anh/imagell.jpg');
+}
+section  .contact .tdcontact{
+	text-align: center;
+}
+section .line .txtname,.txtnumber, .txtcapcha{
+	width: 330px;
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+section .line .txtemail{
+	height: 40px;
+	border-radius: 5px;
+	width: 710px;
+	margin-bottom: 20px;
+}
+section .line .txtarea{
+	margin-bottom: 20px;
+	border-radius: 5px;	
+}
+section .line .txtcap{
+	text-align: center;
+	background-color: green;
+	padding: 7px 7px;
+	font-size: 220%;
+	color: white;
+}
+section .line .butgui{
+	color: green;
+	color: white;
+	width: 120px;
+	height: 40px;
+	border-radius: 25px;
+}
+section {
+	margin-bottom: 50px;
+}
+footer{
+	margin: 0 100px;
+}
